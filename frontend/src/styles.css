@@ -1,0 +1,96 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Full-screen background */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+/* Centered Box */
+.center-box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Heading Styling */
+h1,
+h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input Styling */
+input {
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  width: 100%;
+}
+
+/* Button Styling */
+button {
+  background: #fff;
+  color: #6e8efb;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  width: 100%;
+}
+
+/* Button container styling */
+.buttons {
+  display: flex;
+  gap: 20px; /* Adds space between buttons */
+  justify-content: center;
+  margin-top: 20px; /* Adds space between heading and buttons */
+}
+
+/* Ensures buttons are evenly spaced on small screens */
+.buttons a {
+  flex: 1;
+  text-align: center;
+  max-width: 150px;
+}
+
+button:hover {
+  background: #a777e3;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Links should not have default underlines */
+a {
+  text-decoration: none;
+}
